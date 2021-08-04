@@ -1,0 +1,484 @@
+Label Name,Database Name
+Patient First name,PAT_FNAME
+Patient surname,PAT_LNAME
+Date of Birth (YYYY/MM/DD),PAT_DOB
+Address,PAT_MA_STREET1
+City,PAT_MA_CITY
+Postal Code,PAT_MA_POSTAL
+Telephone,PAT_PHONEC
+Alternate phone #,PAT_PHONEH
+Ontario Health Card #,PAT_HIN
+Version Code,PAT_HIN_VERSION
+Family Doctor Name,PAT_RDOC_NAME
+Family Doctor Phone #,PAT_REF_DOC_CONTACT
+Urgent,NONE
+Elective,NONE
+Doctors name and contact information to be added here,PAT_DOCTOR
+Make,NONE
+Model #,NONE
+Serial #,NONE
+Date Implanted,PAT_ADMIT_DATE
+doc name,PAT_DOCTOR
+clinic name,CLINIC_NAME
+clinic address,CLINIC_STREET
+clinic city prov,CLINIC_PROV
+clinic phone,NONE
+clinician contact number,NONE
+service date year,NONE
+service date month,NONE
+service date day,NONE
+clinician no,USER_PROVIDER
+clinician cpso no,USER_CPSO
+pt prov,PAT_MA_PROV
+hin_other,PAT_HIN_NUM_ONLY
+pt home phone,PAT_PHONEH
+addl clinical info,NONE
+pt lname,PAT_LNAME
+pt fname,PAT_FNAME
+ref doc name,PAT_RDOC_NAME
+pt address,PAT_MA_STREET1
+pt city prov postal,PAT_MA_POSTAL
+ref doc address 1,PAT_REF_DOC_ADDRESS1
+ref doc address 2,PAT_REF_DOC_ADDRESS2
+ref doc address 3,PAT_REF_DOC_ADDRESS3
+chlamydia comment,NONE
+gc comment,NONE
+child age days,NONE
+child age hr,NONE
+clinician phone no,NONE
+pt 24hr no,PAT_PHONEC
+wound comment,NONE
+name of drug 1,NONE
+name of drug 2,NONE
+time collected 1,NONE
+time collected 2,NONE
+time last dose 1,NONE
+last dose 2,NONE
+time next dose 1,NONE
+next dose 2,NONE
+other swab comment,NONE
+time specimen coll,NONE
+date specimen coll,NONE
+other test 1,NONE
+other test 2,NONE
+other test 3,NONE
+other test 4,NONE
+other test 5,NONE
+other test 6,NONE
+other test 7,NONE
+other test 8,NONE
+other test 9,NONE
+other test 10,NONE
+other test 11,NONE
+datebottom,NONE
+Patient Name,PAT_NAME
+Address 1,PAT_RA_STREET
+Address 2,PAT_RA_STREET2
+Phone Home,PAT_PHONEH
+Business,PAT_PHONEB
+Date of Birth,PAT_DOB
+Health Card,PAT_HIN
+Unit,NONE
+Reason for Urgency,NONE
+Reason for Referral,NONE
+Appointment Date,NONE
+Time,NONE
+undefined_4,NONE
+Day Study Requested,NONE
+Other 1,NONE
+Other 2,NONE
+CNS,NONE
+Metabolic,NONE
+Other Health Problems,NONE
+COMMENTS 1,NONE
+COMMENTS 2,NONE
+COMMENTS 3,NONE
+1,NONE
+1_2,NONE
+1_3,NONE
+2,NONE
+2_2,NONE
+2_3,NONE
+3,NONE
+3_2,NONE
+3_3,NONE
+Oxygen,NONE
+CPAP,NONE
+IPAP,NONE
+EPAP,NONE
+SPECIAL CARE NEEDS eg Patient requires extra assistance or support worker during study,NONE
+Height,NONE
+Weight,NONE
+Kg  lbs,NONE
+Date,NONE
+cc,NONE
+cc_2,NONE
+Physician Signature,NONE
+Physician Name Print,PAT_DOCTOR
+Patient Name,PAT_NAME
+HCN,NONE
+VC,NONE
+DOB,PAT_DOB
+Address,PAT_MA_STREET1
+City,PAT_MA_CITY
+Province,PAT_MA_PROV
+Postal Code,PAT_MA_POSTAL
+Patient Phone,PAT_PHONEC
+Contact Name,NONE
+Contact Phone,NONE
+Unit/Floor,NONE
+Discharge Date,NONE
+Hospital Site,PAT_HOSPITAL
+Dropdown1,NONE
+Contact Person,NONE
+undefined,NONE
+Relationship,NONE
+Phone Home,PAT_PHONEH
+Phone Cell,PAT_PHONEC
+Phone Work,PAT_PHONEB
+Primary Care Physician,PAT_DOCTOR
+Phone,NONE
+Primary Diagnosis,PAT_DIAG
+Date,NONE
+Secondary Diagnosis,NONE
+Surgical Procedure,NONE
+Date_2,NONE
+Allergies,NONE
+Special Diet,NONE
+Wound Location,NONE
+Activities Permitted,NONE
+ve Care End of Life PPS,NONE
+on attached Total Number of Pages,NONE
+Text1,NONE
+Urinary Catheter Care Insertion Date,NONE
+Urinary Catheter Care Size,NONE
+Urinary Catheter Care Type,NONE
+Name,USER_USERNAME
+Telephone,USER_PHONENUMBER
+Signature3,NONE
+Date_3,NONE
+CPSOCNO Reg,USER_CPSO
+Last Name First Name,PAT_NAME
+HINHCNOHCNOHIP  Date of Birth yyyymmdd,PAT_DOB
+Address,PAT_MA_STREET1
+City  Province Postal Code,PAT_MA_POSTAL
+Phone Number Mobile Number,PAT_PHONEC
+Gender Weight kg Age,NONE
+Unit,NONE
+Phone,PAT_PHONEC
+Other 1,NONE
+Other 2,NONE
+Other 3,NONE
+Fax,NONE
+Fax 1,NONE
+Fax 2,NONE
+Fax_2,NONE
+undefined_2,NONE
+Specify,NONE
+undefined,NONE
+Exam Requested be specific,NONE
+Other,NONE
+eGFR,NONE
+Date,NONE
+Date_2,NONE
+Creatinine,NONE
+If yes Please indicate,NONE
+Study eg CTMRIXrayRow1,NONE
+Study eg CTMRIXrayRow2,NONE
+Study eg CTMRIXrayRow3,NONE
+Date yyyymmddRow1,NONE
+Date yyyymmddRow2,NONE
+Date yyyymmddRow3,NONE
+LocationRow1,NONE
+LocationRow2,NONE
+Additional Information,NONE
+Reviewed by,NONE
+Signature  Designation,NONE
+Date_3,NONE
+Test Date,NONE
+Test Time,NONE
+yyyymmdd,NONE
+Protocol,NONE
+Radiologist printed,NONE
+Additional Comments,NONE
+Signature,NONE
+Feeding concerns,NONE
+Current Medications,NONE
+Bladder function,NONE
+Emotional wellbeing,NONE
+Bowel function,NONE
+Relationship,NONE
+Sexual function,NONE
+Postpartum Depression Screen(EPDS or other ),NONE
+Lochia / Menses,NONE
+Family Support / Community Resources,NONE
+Perineum / Incision,NONE
+Other Immunizations,NONE
+Last Pap,NONE
+Result,NONE
+Weight Today,NONE
+Pre-Delivery Weight,NONE
+Pre-Pregnancy Weight,NONE
+BP,NONE
+Patient Last Name,PAT_LNAME
+Patient First Name & Middle Names ,PAT_MNAME
+Patient Address ,PAT_RA_STREET
+Specimen Collection Date,NONE
+Last Menstrual Period,NONE
+Clinical HIstory/Remarks,NONE
+Date of Birth,PAT_DOB
+Patient Phone Number,PAT_PHONEC
+Patient Chart Number,NONE
+Other Site,NONE
+"Name(Last, First)","PAT_LNAME,PAT_FNAME"
+DOB,PAT_DOB
+Gender,PAT_SEX
+Phone,PAT_PHONEC
+email,PAT_EMAIL
+Date of request,NONE
+ALT,NONE
+AST,NONE
+ALP,NONE
+Platelets,NONE
+HBV DNA,NONE
+HBeAg+/-,NONE
+Referring Physician,PAT_REF_DOC
+"Name(surname,given)",PAT_NAME
+Date of Birth,PAT_DOB
+Health Card #,PAT_HIN
+Address,PAT_STREET
+Postal Code,PAT_MA_POSTAL
+Weight,NONE
+Egg Donor Birth Date(even if patient is donor),NONE
+Egg Harvest Date,NONE
+U/S Date,NONE
+CRL,NONE
+BPD,NONE
+NT,NONE
+Operator Code,NONE
+Site,NONE
+Site phone #,NONE
+Ordering Provider,NONE
+Address,NONE
+Phone,PAT_PHONEC
+Fax,NONE
+Billing #,NONE
+Additional Report To,NONE
+Address,NONE
+Provider Billing #,NONE
+Specimen Date,NONE
+Phone#,PAT_PHONEC
+Courier Code,NONE
+Heath No.,PAT_HIN
+Medical Record No.,NONE
+Sex,PAT_SEX
+SubmitterLab No.,NONE
+Clinical Initial/Surname and OHIP / CPSO Number,NONE
+Tel,PAT_PHONEC
+Other relevant and clinical information,PAT_PHONEC
+Last Name,USER_LASTNAME
+First Name,USER_FIRSTNAME
+Date of visit,NONE
+Date of Delivery,NONE
+Number of weeks postpartum,NONE
+GA at Birth,NONE
+Primary Care Provider,NONE
+Review of birth,NONE
+Details,NONE
+Birth Attendant,NONE
+"Pregnancy/birth issues requiring follow-up(e.g. diabetes, hypertension, thyroid)",NONE
+Birth Weight (g),NONE
+Name,USER_USERNAME
+Address,USER_STREET
+Clinical/Practinitioner Billing Number,CLINIC_BILLING_NUMBER
+Clinical/Practitioner Phone Number,CLINIC_PHONE_NUMBER
+Clinical/Practitioner Phone Number,PAT_HIN
+Province,PAT_MA_PROV
+name last first,PAT_NAME
+dob ddmmyy,PAT_DOB
+Birth Weight (g),NONE
+Feeding concerns,NONE
+Current Medications,NONE
+Bladder function,NONE
+Emotional wellbeing,NONE
+Bowel function,NONE
+Relationship,NONE
+Sexual function,NONE
+Postpartum Depression Screen(EPDS or other ),NONE
+Lochia / Menses,NONE
+Family Support / Community Resources,NONE
+Perineum / Incision,NONE
+Other Immunizations,NONE
+Last Pap,NONE
+Result,NONE
+Weight Today,NONE
+Pre-Delivery Weight,NONE
+Pre-Pregnancy Weight,NONE
+BP,NONE
+Planned Birth Attendant,NONE
+Newborn Care Provider In Hospital,NONE
+In Hospital,NONE
+In Community,NONE
+Allergies or Sensitivities (include reaction) ,NONE
+Family Physician/Primary Care Provider ,
+"Medications (include Rx/OTC, complementary/alternative/vitamins, include dosage) ",NONE
+G,NONE
+T,NONE
+P,NONE
+A,NONE
+L,NONE
+S,NONE
+Final EDB,NONE
+Social ,NONE
+Rh(D) IG given ,NONE
+Additional dose given ,NONE
+Pre-pregnancy Wt,NONE
+BMI,NONE
+Name / Initials,PAT_NAME
+"Address - street number, street name",PAT_STREET
+Apt/Suite/Unit,PAT_MA_STREET
+Buzzer No,NONE
+City/Town,PAT_MA_CITY
+Province,PAT_MA_POSTAL
+Occupation,PAT_OCCUPATION
+Education Level,NONE
+Relationship Status,PAT_STATUS
+Sexual Orientation,NONE
+Contact - Preferred,PAT_PHONEC
+Contact - Alternate/E-mail,PAT_PHONEH
+Age at EDB,NONE
+Language,PAT_PREF_LANG
+OHIP Number,PAT_ID
+Patient File Number,NONE
+Planned Place of Birth,NONE
+Allergies or Sensivities (include reaction),NONE
+LMP,NONE
+Cycle q,NONE
+EDP By LMP,NONE
+Last Used,NONE
+Gravida,NONE
+Term,NONE
+Preterm,NONE
+Abortus,NONE
+Living Children,NONE
+Stillbirth(s),NONE
+Neonatal/ Child Death,NONE
+Completed By,NONE
+Reviewed By,NONE
+Hb,NONE
+ABO/Rh(D),NONE
+MCV,NONE
+Antibody screen,NONE
+Platelets,NONE
+Rubella immune,NONE
+HB sAg,NONE
+Syphillis,NONE
+HIV,NONE
+GC,NONE
+Chlamydia,NONE
+Urine C&S,NONE
+Repeat Antibodies,NONE
+1hr GCT,NONE
+2hr GTT,NONE
+How many drinks does it take to make you feel high? ,NONE
+Have people annoyed you by criticizing your drinking? ,NONE
+Have you felt you ought to cut down on your drinking? ,NONE
+Have you ever had a drink first thing in the morning to steady your nerves or to get rid of a hangover? ,NONE
+Total Score,NONE
+LAST NAME,PAT_LNAME
+FIRST NAME,PAT_FNAME
+ADDRESS,PAT_MA_STREET1
+PHONE,PAT_PHONEC
+OHIP,PAT_HIN
+DIABETIC MEDICATIONS,NONE
+undefined_3,NONE
+CLINICAL HISTORY,NONE
+Date of I131 WB Scan,NONE
+Date,NONE
+Where on body,NONE
+Date_2,NONE
+Biopsy site,NONE
+Chemo Drug Used,NONE
+Other Research,NONE
+Number of Cycles,NONE
+Date of Last Cycle,NONE
+Radiation Field,NONE
+Number of Treatments,NONE
+Date of last Treatment,NONE
+Printed name,PAT_NAME
+Appt Date,NONE
+Phone,PAT_PHONEC
+Appt Time,NONE
+Copies of report to,NONE
+Date givendose 1  6 weeks14 weeks6 days,NONE
+Date givendose 2,NONE
+Date given dose 3 by 8 months0 days,NONE
+Date givendose 1  2 months,NONE
+PregnancyBirth remarksApgar,NONE
+Risk factorsFamily history,NONE
+DATE OF VISIT,PAT_LAST_VISIT
+NAME,PAT_NAME
+Birth Day dmyy,PAT_DOB
+Gestational Age,NONE
+Birth Length,NONE
+Birth Weight,NONE
+Head Circumference,NONE
+Discharge Weight,NONE
+within 1 week,NONE
+2 weeks optional,NONE
+1 month,NONE
+Length,NONE
+Weight,NONE
+HC avg 35 cm,NONE
+Length_2,NONE
+Head Circ,NONE
+Length_3,NONE
+Weight_2,NONE
+Head Circ_2,NONE
+PARENTCAREGIVER CONCERNSRow1,NONE
+PARENTCAREGIVER CONCERNSRow1_2,NONE
+PARENTCAREGIVER CONCERNSRow1_3,NONE
+Sucks well on nipple,NONE
+Sucks well on nipple  No parentcaregiver concerns,NONE
+Focuses gaze  Startles to loud noise  Calms when comforted  Sucks well on nipple  No parentcaregiver concerns,NONE
+Skin jaundice2 bruising2  Fontanelles2  Eyes red reflex2  Corneal light reflex2  Hearing inquiryScreening2  Tongue mobility2  HeartAbdomen  NeckTorticollis2  Hips BarlowOrtolani2  Muscle tone2,NONE
+PROBLEMS AND PLANSCURRENT  NEW REFERRALS4 Eg medical specialist dietitian speech audiology PT OT eyes dental socialdeterminants resourcesRow1,NONE
+PROBLEMS AND PLANSCURRENT  NEW REFERRALS4 Eg medical specialist dietitian speech audiology PT OT eyes dental socialdeterminants resourcesRow1_2,NONE
+PROBLEMS AND PLANSCURRENT  NEW REFERRALS4 Eg medical specialist dietitian speech audiology PT OT eyes dental socialdeterminants resourcesRow1_3,NONE
+INVESTIGATIONSSCREENING2 AND IMMUNIZATION3 Discuss immunization pain reduction strategies3 Record Vaccines on Guide V,NONE
+Newborn screening as per province  Hemoglobinopathy screen if at risk2  Universal newborn hearing screening UNHS2  If HBsAgpositive parentsibling Hep B vaccine 13,NONE
+If HBsAgpositive parentsibling Hep B vaccine 23,NONE
+SIGNATURERow1,NONE
+SIGNATURERow1_2,NONE
+SIGNATURERow1_3,NONE
+Age,NONE
+Past problemsRisk factors,NONE
+Family history,NONE
+NAME_2,PAT_NAME
+Birth Day dmyy_2,PAT_DOB
+Gestational Age_2,NONE
+Birth Length_2,NONE
+Birth Wt,NONE
+Birth Head Circ,NONE
+2 months,NONE
+4 months,NONE
+6 months,NONE
+OOther_3,NONE
+ONRow1,NONE
+ONRow2,NONE
+ONRow3,NONE
+OOther_2,NONE
+Specify Extremity,NONE
+OOther,NONE
+Copy to Please print,NONE
+Signature Date,NONE
+Other,NONE
+CitvTown,PAT_RA_CITY
+Last Name First Name,PAT_NAME
+Exam Date,NONE
+Arrival Time,NONE
+Exam Time,NONE
+Specify Exam Requested and Areas to be examined,NONE
+Signature Date,NONE
+EXAM INFORMATION PHYSICIAN TO COMPLETE INCOMPLETE REQUISITIONS WILL BE RETURNED,NONE
+VC,NONE
