@@ -1,0 +1,125 @@
+Label Name,Database Name
+Patient First name,PAT_FNAME
+Patient surname,PAT_LNAME
+Date of Birth (YYYY/MM/DD),PAT_DOB
+Address,PAT_MA_STREET1
+City,PAT_MA_CITY
+Postal Code,PAT_MA_POSTAL
+Telephone,PAT_PHONEC
+Alternate phone #,PAT_PHONEH
+Ontario Health Card #,PAT_HIN
+Version Code,PAT_HIN_VERSION
+Family Doctor Name,PAT_RDOC_NAME
+Family Doctor Phone #,PAT_REF_DOC_CONTACT
+Doctors name and contact information to be added here,PAT_DOCTOR
+Date Implanted,PAT_ADMIT_DATE
+doc name,PAT_DOCTOR
+clinic name,CLINIC_NAME
+clinic address,CLINIC_STREET
+clinic city prov,CLINIC_PROV
+clinician no,USER_PROVIDER
+clinician cpso no,USER_CPSO
+pt prov,PAT_MA_PROV
+hin_other,PAT_HIN_NUM_ONLY
+pt home phone,PAT_PHONEH
+pt lname,PAT_LNAME
+pt fname,PAT_FNAME
+ref doc name,PAT_RDOC_NAME
+pt address,PAT_MA_STREET1
+pt city prov postal,PAT_MA_POSTAL
+ref doc address 1,PAT_REF_DOC_ADDRESS1
+ref doc address 2,PAT_REF_DOC_ADDRESS2
+ref doc address 3,PAT_REF_DOC_ADDRESS3
+pt 24hr no,PAT_PHONEC
+Patient Name,PAT_NAME
+Address 1,PAT_RA_STREET
+Address 2,PAT_RA_STREET2
+Phone Home,PAT_PHONEH
+Business,PAT_PHONEB
+Date of Birth,PAT_DOB
+Health Card,PAT_HIN
+Physician Name Print,PAT_DOCTOR
+Patient Name,PAT_NAME
+HCN,NONE
+VC,NONE
+DOB,PAT_DOB
+Address,PAT_MA_STREET1
+City,PAT_MA_CITY
+Province,PAT_MA_PROV
+Postal Code,PAT_MA_POSTAL
+Patient Phone,PAT_PHONEC
+Hospital Site,PAT_HOSPITAL
+Phone Home,PAT_PHONEH
+Phone Cell,PAT_PHONEC
+Phone Work,PAT_PHONEB
+Primary Care Physician,PAT_DOCTOR
+Primary Diagnosis,PAT_DIAG
+Name,USER_USERNAME
+Telephone,USER_PHONENUMBER
+CPSOCNO Reg,USER_CPSO
+Last Name First Name,PAT_NAME
+HINHCNOHCNOHIP  Date of Birth yyyymmdd,PAT_DOB
+Address,PAT_MA_STREET1
+City  Province Postal Code,PAT_MA_POSTAL
+Phone Number Mobile Number,PAT_PHONEC
+Phone,PAT_PHONEC
+Patient Last Name,PAT_LNAME
+Patient First Name & Middle Names ,PAT_MNAME
+Patient Address ,PAT_RA_STREET
+Date of Birth,PAT_DOB
+Patient Phone Number,PAT_PHONEC
+"Name(Last, First)","PAT_LNAME,PAT_FNAME"
+DOB,PAT_DOB
+Gender,PAT_SEX
+Phone,PAT_PHONEC
+email,PAT_EMAIL
+Referring Physician,PAT_REF_DOC
+"Name(surname,given)",PAT_NAME
+Date of Birth,PAT_DOB
+Health Card #,PAT_HIN
+Address,PAT_STREET
+Postal Code,PAT_MA_POSTAL
+Phone,PAT_PHONEC
+Phone#,PAT_PHONEC
+Heath No.,PAT_HIN
+Sex,PAT_SEX
+Tel,PAT_PHONEC
+Other relevant and clinical information,PAT_PHONEC
+Last Name,USER_LASTNAME
+First Name,USER_FIRSTNAME
+Name,USER_USERNAME
+Address,USER_STREET
+Clinical/Practinitioner Billing Number,CLINIC_BILLING_NUMBER
+Clinical/Practitioner Phone Number,CLINIC_PHONE_NUMBER
+Clinical/Practitioner Phone Number,PAT_HIN
+Province,PAT_MA_PROV
+name last first,PAT_NAME
+dob ddmmyy,PAT_DOB
+Name / Initials,PAT_NAME
+"Address - street number, street name",PAT_STREET
+Apt/Suite/Unit,PAT_MA_STREET
+City/Town,PAT_MA_CITY
+Province,PAT_MA_POSTAL
+Occupation,PAT_OCCUPATION
+Relationship Status,PAT_STATUS
+Contact - Preferred,PAT_PHONEC
+Contact - Alternate/E-mail,PAT_PHONEH
+Language,PAT_PREF_LANG
+OHIP Number,PAT_ID
+LAST NAME,PAT_LNAME
+FIRST NAME,PAT_FNAME
+ADDRESS,PAT_MA_STREET1
+PHONE,PAT_PHONEC
+OHIP,PAT_HIN
+dob ddmmyyyy,PAT_DOB
+Printed name,PAT_NAME
+Phone,PAT_PHONEC
+DATE OF VISIT,PAT_LAST_VISIT
+NAME,PAT_NAME
+Birth Day dmyy,PAT_DOB
+NAME_2,PAT_NAME
+Birth Day dmyy_2,PAT_DOB
+CitvTown,PAT_RA_CITY
+Last Name First Name,PAT_NAME
+lname,PAT_LNAME
+fname,PAT_FNAME
