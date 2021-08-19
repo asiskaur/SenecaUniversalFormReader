@@ -751,4 +751,8 @@ data = {'Name':name, 'Width': width, 'Height': height,
 df = pd.DataFrame(data)    
 df = df.sort_values(["y1", "x1"], ascending = False)
 
+# removing all the blank elements
+df.dropna(inplace = True)
+
+# converting dataframe to csv
 df.to_csv(CSV_Name[File_Number])            
