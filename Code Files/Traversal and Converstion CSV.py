@@ -431,5 +431,8 @@ df = df.sort_values(["y1", "x1"], ascending = False)
 # Pruning the plain text 
 df = df[df.ObjectType != "plain text"]
 
+# removing all the blank elements
+df.dropna(inplace = True)
+
 # Store the dataframe as Comma Separated Excel file
 df.to_csv(CSV_Name[File_Number])            
