@@ -136,14 +136,14 @@ for row in range(len(df)):
                 
                 # if label is None or empty 
                 if label.lower() == 'none' or label.lower() == "n" or label == '':
-                    label = name_block
+                    label = ' '
             else:
                 # Name and ID with quirks 
                 name_block = Chunks[0]
                 
                 # if label is None or empty
                 if label.lower() == 'none' or label.lower() == "n" or label == '':
-                    label = name_block
+                    label = ' '
                     
             # Making the name and ID for form         
             if len(Chunks2) > 1:
@@ -250,13 +250,13 @@ for row in range(len(df)):
                 name_block = '_'.join(Chunks)
                 
                 if label.lower() == 'none' or label.lower() == "n" or label == '':
-                    label = name_block
+                    label = ' '
             else:
                 # Name and ID with quirks
                 name_block = Chunks[0]
                 
                 if label.lower() == 'none' or label.lower() == "n" or label == '':
-                    label = name_block
+                    label = ' '
                     
             if len(Chunks2) > 1:
                 # Name and ID with quirks
