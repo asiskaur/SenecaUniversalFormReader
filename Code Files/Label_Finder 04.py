@@ -9,6 +9,7 @@ Created on Wed Jul 21 13:30:26 2021
 # import dependencies for data structure
 import pandas as pd
 import numpy as np
+import string
 
 # Import dependency to load csv data and load location of current directory
 import os
