@@ -62,6 +62,7 @@ file.write("<p>")
 
 # Choosing number of elements 
 Threshold = int(input("Enter the number of fields in a row: "))
+
 # Flag for elements in a row
 Row_Elements = 0
 
@@ -85,7 +86,7 @@ for row in range(len(df)):
             Chunks = Test_String.upper().split(' ')
             Chunks2 = Test_String.lower().split(' ')
             
-            # empty sections for labels and appending in the dictonary
+            # Empty sections for labels and appending in the dictonary
             label = ''
             AddToHistory = []
             
@@ -102,6 +103,7 @@ for row in range(len(df)):
                         label = History.loc[row1, "Database Name"]
                     
                     else:
+                        # If the label in history is none
                         label = "NONE"
             
             # if the label is still empty, which means it is not found in history
@@ -109,14 +111,16 @@ for row in range(len(df)):
                 # store new label
                 list_of_elem = []
                 
+                # Displayed field to assign the databse name
                 print("The field name is: %s" % Test_String.lower())
-                
                 list_of_elem.append(Test_String.lower())
+                # Ask for the database name
                 list_of_elem.append(input("Please Enter Database Name (format DB_NAME): "))
                 print("\n")
                 
                 # Open file in append mode
                 with open("Linked History.csv", 'a+', newline='') as write_obj:
+                    
                     # Create a writer object from csv module
                     csv_writer = writer(write_obj)
                     # Add contents of list as last row in the csv file
@@ -133,14 +137,14 @@ for row in range(len(df)):
                 
                 # if label is None or empty 
                 if label.lower() == 'none' or label.lower() == "n" or label == '':
-                    label = name_block
+                    label = ' '
             else:
                 # Name and ID with quirks 
                 name_block = Chunks[0]
                 
                 # if label is None or empty
                 if label.lower() == 'none' or label.lower() == "n" or label == '':
-                    label = name_block
+                    label = ' '
                     
             # Making the name and ID for form         
             if len(Chunks2) > 1:
@@ -163,30 +167,37 @@ for row in range(len(df)):
                     # Check for the Name of element in both files 
                     if Labels.loc[element, 'Boxname'] == df.loc[row, 'Name']:
                         
+                        # Allocate label to a new string
                         label_String = Labels.loc[element, 'Labelname']
+                        
+                        # Create a string containing all the Alphabets
                         alphabets = list(string.ascii_uppercase) + list(string.ascii_lowercase) 
+                        
+                        # Empty string to form the label string
                         label_String2 = ""
 
+                        # Check if there is anything other than alphabets and remove (mostly used to remove encoded symobls)
                         for i in range(len(label_String)):
                             if label_String[i] == " " or label_String[i] in alphabets:
                                 label_String2 = label_String2 + label_String[i]
         
+                        # If label is not empty then it is the new label
                         if label_String2 != "":
                             label_String = label_String2
+                        # The label was not detected 
                         else:
                             label_String = "Not Found"
-                        # Storing the HTML script 
                         
                         # Storing the HTML script 
-                        text = " " + str(label_String) + ' <input id="' + name_block2 + '" name="' + name_block + '" value="[*' + label + '*]"' + ' type="text" />' + ' \n'
+                        text = " " + str(label_String) + ' <input id="' + name_block2 + '" name="' + name_block + '" value="' + label + '"' + ' type="text" />' + ' \n'
                     
                     else:
                         # Storing the HTML script 
-                        text = " " + str(df.loc[row, 'Name']) + ' <input id="' + name_block2 + '" name="' + name_block + '" value="[*' + label + '*]"' + ' type="text" />' +' \n'
+                        text = " " + str(df.loc[row, 'Name']) + ' <input id="' + name_block2 + '" name="' + name_block + '" value="' + label + '"' + ' type="text" />' +' \n'
             
             else:
                 # Storing the HTML script 
-                text = " " + str(df.loc[row, 'Name']) + ' <input id="' + name_block2 + '" name="' + name_block + '" value="[*' + label + '*]"' + ' type="text" />' +' \n'
+                text = " " + str(df.loc[row, 'Name']) + ' <input id="' + name_block2 + '" name="' + name_block + '" value="' + label + '"' + ' type="text" />' +' \n'
         
         else:
             # Reset the row elements flag
@@ -247,13 +258,13 @@ for row in range(len(df)):
                 name_block = '_'.join(Chunks)
                 
                 if label.lower() == 'none' or label.lower() == "n" or label == '':
-                    label = name_block
+                    label = ' '
             else:
                 # Name and ID with quirks
                 name_block = Chunks[0]
                 
                 if label.lower() == 'none' or label.lower() == "n" or label == '':
-                    label = name_block
+                    label = ' '
                     
             if len(Chunks2) > 1:
                 # Name and ID with quirks
@@ -292,13 +303,13 @@ for row in range(len(df)):
                         # Storing the HTML script 
                         
                         # Storing the HTML script 
-                        text = " " + str(label_String) + ' <input id="' + name_block2 + '" name="' + name_block + '" value="[*' + label + '*]"' + ' type="text" />' +' \n'
+                        text = " " + str(label_String) + ' <input id="' + name_block2 + '" name="' + name_block + '" value="' + label + '"' + ' type="text" />' +' \n'
                     else:
                         # Storing the HTML script 
-                        text = " " + str(df.loc[row, 'Name']) + ' <input id="' + name_block2 + '" name="' + name_block + '" value="[*' + label + '*]"' + ' type="text" />' +' \n'
+                        text = " " + str(df.loc[row, 'Name']) + ' <input id="' + name_block2 + '" name="' + name_block + '" value="' + label + '"' + ' type="text" />' +' \n'
             else:
                 # Storing the HTML script 
-                text = " " + str(df.loc[row, 'Name']) + ' <input id="' + name_block2 + '" name="' + name_block + '" value="[*' + label + '*]"' + ' type="text" />' +' \n'
+                text = " " + str(df.loc[row, 'Name']) + ' <input id="' + name_block2 + '" name="' + name_block + '" value="' + label + '"' + ' type="text" />' +' \n'
         
         # Write general HTML syntax
         file.write(text)
