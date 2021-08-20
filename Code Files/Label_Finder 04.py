@@ -88,18 +88,41 @@ for i in  range(len(list1_x0)):
             if list_name[min_list[minimum]] not in dicti.values():
                 label = list_name[min_list[minimum]].replace("_","")
                 label_1 = label.replace(":","")
-                dicti[list_name[i]] = label_1
+                
+                alphabets = list(string.ascii_uppercase) + list(string.ascii_lowercase) 
+                label_2 = ""
+
+                for elm in range(len(label_1)):
+                    if label_1[elm] == " " or label_1[elm] in alphabets:
+                        label_2 = label_2 + label_1[elm]
+                
+                if any(c.isalpha() for c in label_2):
+                    dicti[list_name[i]] = label_2
+         
             else:
                 min_list.pop(minimum)
                 minimum = min(min_list.keys())
                 label = list_name[min_list[minimum]].replace("_","")
                 label_1 = label.replace(":","")
-                dicti[list_name[i]] = label_1
+                
+                alphabets = list(string.ascii_uppercase) + list(string.ascii_lowercase) 
+                label_2 = ""
+
+                for elm2 in range(len(label_1)):
+                    if label_1[elm2] == " " or label_1[elm2] in alphabets:
+                        label_2 = label_2 + label_1[elm2]
+                
+                if any(c.isalpha() for c in label_2):
+                    dicti[list_name[i]] = label_2
               
 list_boxname = list(dicti.keys())
 list_labelname = list(dicti.values())
 
 new_df = pd.DataFrame(list(zip(list_boxname, list_labelname)),columns = ["Boxname","Labelname"])
+
+# removing all the blank elements
+new_df.dropna(inplace = True)
+
 new_df.to_csv(New_CSV[File_Number])
 
 
