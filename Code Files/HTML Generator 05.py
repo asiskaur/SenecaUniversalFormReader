@@ -181,15 +181,15 @@ for row in range(len(df)):
                         # Storing the HTML script 
                         
                         # Storing the HTML script 
-                        text = '<td>'+'<p>' + str(label_String) + ' <input id="' + name_block2 + '" name="' + name_block + '" value="[*' + label + '*]"' + ' size="' + '30' + '"' + ' type="text" />' + '</p>' +'</td>'+' \n'
+                        text = '<td>'+'<p>' + str(label_String) + ' <input id="' + name_block2 + '" name="' + name_block + '" value="' + label + '"' + ' size="' + '30' + '"' + ' type="text" />' + '</p>' +'</td>'+' \n'
                     
                     else:
                         # Storing the HTML script 
-                        text = '<td>'+'<p>' + str(df.loc[row, 'Name']) + ' <input id="' + name_block2 + '" name="' + name_block + '" value="[*' + label + '*]"' + ' size="' + '30' + '"' + ' type="text" />' + '</p>' +'</td>'+' \n'
+                        text = '<td>'+'<p>' + str(df.loc[row, 'Name']) + ' <input id="' + name_block2 + '" name="' + name_block + '" value="' + label + '"' + ' size="' + '30' + '"' + ' type="text" />' + '</p>' +'</td>'+' \n'
             
             else:
                 # Storing the HTML script 
-                text = '<td>'+'<p>' + str(df.loc[row, 'Name']) + ' <input id="' + name_block2 + '" name="' + name_block + '" value="[*' + label + '*]"' + ' size="' + '"100"' + '"' + ' type="text" />' + '</p>' +'</td>'+' \n'
+                text = '<td>'+'<p>' + str(df.loc[row, 'Name']) + ' <input id="' + name_block2 + '" name="' + name_block + '" value="' + label + '"' + ' size="' + '"100"' + '"' + ' type="text" />' + '</p>' +'</td>'+' \n'
         
         else:
             # Reset the row elements flag
@@ -295,13 +295,13 @@ for row in range(len(df)):
                         # Storing the HTML script 
                         
                         # Storing the HTML script 
-                        text = '<td>'+'<p>' + str(label_String) + ' <input id="' + name_block2 + '" name="' + name_block + '" value="[*' + label + '*]"' + ' size="' + '30' + '"' + ' type="text" />' + '</p>' +'</td>'+' \n'
+                        text = '<td>'+'<p>' + str(label_String) + ' <input id="' + name_block2 + '" name="' + name_block + '" value="' + label + '"' + ' size="' + '30' + '"' + ' type="text" />' + '</p>' +'</td>'+' \n'
                     else:
                         # Storing the HTML script 
-                        text = '<td>'+'<p>' + str(df.loc[row, 'Name']) + ' <input id="' + name_block2 + '" name="' + name_block + '" value="[*' + label + '*]"' + ' size="' + '"100"' + '"' + ' type="text" />' + '</p>' +'</td>'+' \n'
+                        text = '<td>'+'<p>' + str(df.loc[row, 'Name']) + ' <input id="' + name_block2 + '" name="' + name_block + '" value="' + label + '"' + ' size="' + '"100"' + '"' + ' type="text" />' + '</p>' +'</td>'+' \n'
             else:
                 # Storing the HTML script 
-                text = '<td>'+'<p>' + str(df.loc[row, 'Name']) + ' <input id="' + name_block2 + '" name="' + name_block + '" value="[*' + label + '*]"' + ' size="' + '30' + '"' + ' type="text" />' + '</p>' +'</td>'+' \n'
+                text = '<td>'+'<p>' + str(df.loc[row, 'Name']) + ' <input id="' + name_block2 + '" name="' + name_block + '" value="' + label + '"' + ' size="' + '30' + '"' + ' type="text" />' + '</p>' +'</td>'+' \n'
         
         # Write general HTML syntax
         file.write(text)
