@@ -1,1 +1,1 @@
-![alt text](http://url/to/img.png)
+![FLOW CHART](http://url/to/img.png)
