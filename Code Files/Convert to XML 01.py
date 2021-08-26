@@ -1,14 +1,14 @@
-# Iport dependency to load pdf files
+# Import dependency to load pdf files
 import pdfquery
 
 # Import dependency to load location of current directory
 import os
 
-# Get the current working directory and convert it into a iterable
+# Get the current working directory and convert it into an iterable
 path = os.getcwd()
 dirs = os.listdir(path)
 
-# Empty list to store the name of PDF file name
+# Empty list to store the name of PDF files 
 PDF_Files = []
 
 # Find all the pdf files
@@ -19,7 +19,7 @@ for file in dirs:
 # Empty List to store the name of xml files
 XML_Name = []
 
-# Create names for HTML Files to be created 
+# Create names for HTML Files  
 for filename in PDF_Files:
     XML_Name.append(filename[:-4]+".xml")
     
@@ -34,8 +34,8 @@ File_Number = int(input("Please choose a file number from the above list: "))
 pdf = pdfquery.PDFQuery(PDF_Files[File_Number])
 pdf.load()
 
-# Convert file into internal tree to traverse
+# Convert file into logical tree to traverse
 pdf.tree
 
-# Convert the tree to xml to read elements
+# Convert the logical tree to xml to read elements
 pdf.tree.write(XML_Name[File_Number], pretty_print=True, encoding="utf-8")
