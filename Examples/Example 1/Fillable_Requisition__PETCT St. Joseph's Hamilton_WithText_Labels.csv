@@ -1,0 +1,41 @@
+,Boxname,Labelname
+0,LAST NAME,DOB 
+1,FIRST NAME,DOB 
+2,ADDRESS,DOB 
+3,PHONE,POSTAL CODE 
+4,F,M  F  
+5,OHIP,DIABETIC MEDICATIONS  
+6,DIABETIC MEDICATIONS,DIABETIC MEDICATIONS  
+7,Cardiac Viability Scan PET Only 2,Insured Services  Cardiac Perfusion Scan PET Only 
+8,Colorectal Cancer recurrent, Esophageal Cancer 
+9,Esophageal Cancer, Esophageal Cancer 
+10,Germ Cell Cancer recurrent, Esophageal Cancer 
+11,CT,Patient Weightkg 
+12,RCL,Patient Weightkg 
+13,Lung NonSmall Cell Cancer, Esophageal Cancer 
+14,MRI,CLINICAL HISTORY 
+15,Lung Limited Small Cell Cancer,cycles 
+16,Pathology,Pathology  Biopsy Report 
+17,Lung Solitary Pulmonary Nodule SPN,cycles 
+18,Lymphoma Assess Treatment post 23,cycles 
+19,Lymphoma Residual Mass post therapy,cycles 
+20,Testicular Cancer recurrent,cycles 
+21,CLINICAL HISTORY,Pathology  Biopsy Report 
+22,Thyroid Cancer recurrent, Thyroid Cancer recurrent 
+23,Date of I131 WB Scan,Date of I WB Scan  
+24,Date,Relevant Surgery YES  No  
+25,Where on body,Date  Where on body  
+26,Pancreatic Cancer, Melanoma 
+27,Melanoma, Melanoma 
+28,Date_2,Biopsy YES  No  
+29,Biopsy site,Date  Biopsy site  
+30,Chemo Drug Used,Date  Biopsy site  
+31,Cardiac Sarcoid, Melanoma 
+32,Number of Cycles,Number of Cycles  
+33,Other Research,Other Research  
+34,Date of Last Cycle,Date of Last Cycle  
+35,Radiation Field,Radiation Field  
+36,Number of Treatments,Number of Treatments  
+37,Date of last Treatment,Date of last Treatment  
+38,Appt Date,Appt Date  
+39,Appt Time,Appt Time  
